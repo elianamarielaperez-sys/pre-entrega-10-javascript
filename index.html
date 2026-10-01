@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="./js/main.js"></script>
+    <title>FLOW FIT</title>
+</head>
+
+<body>
+    <h1>FLOW FIT</h1>
+    <h2>Productos</h2>
+
+
+    <div class="filaDatos">
+        <input type="text" id="nombreProducto" placeholder="Nombre del Producto">
+        <input type="number" id="precioProducto" placeholder="Precio">
+        <input type="number" id="stockProducto" placeholder="Stock">
+    </div>
+
+    <div class="filaBotones">
+        <button id="btnAgregar">Agregar Producto</button>
+        <button id="btnVaciar">Vaciar Productos</button>
+    </div>
+
+    <div class="filaBusqueda">
+        <input type="text" id="busquedaProducto" placeholder="Buscar producto">
+    </div>
+
+    <p id="mensaje"></p>
+
+    <p id="estadoCarga"></p>
+
+    <div id="fondoOscuro"></div>
+
+    <div id="avisoBeneficio">
+        <span>🎁 ¡Beneficio FLOW FIT! Usá el código FLOW10 y obtené 10% de descuento.</span>
+        <button id="cerrarAviso">✕</button>
+    </div>
+
+    <div id="contenedorProductos"></div>
+
+</body>
+
+</html>
