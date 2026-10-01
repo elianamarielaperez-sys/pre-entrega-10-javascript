@@ -1,0 +1,127 @@
+.filaDatos {
+    display: flex;
+    gap: 10px;
+}
+
+.filaBotones {
+    display: flex;
+    gap: 10px;
+}
+
+.filaBusqueda {
+    margin-top: 5px;
+}
+
+body {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f5f9;
+    color: #222;
+}
+
+h1 {
+    color: #02050a;
+    font-size: 40px;
+
+}
+
+h2 {
+    color: #02050a;
+    font-size: 30px;
+}
+
+#contenedorProductos h3 {
+    font-size: 24px;
+}
+
+#contenedorProductos p {
+    font-size: 18px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px 4px 12px 0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: #ccfa76;
+    color: rgb(51, 46, 46);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #91cf1c;
+}
+
+#contenedorProductos>div {
+    margin: 10px 0;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 6px #0002;
+}
+
+#contenedorProductos p {
+    margin-bottom: 0;
+}
+
+#mensaje {
+    min-height: 1.2em;
+    color: #253858;
+    font-weight: bold;
+}
+
+#fondoOscuro {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+#avisoBeneficio {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 250px;
+    padding: 40px;
+    background-color: #e6e4e4;
+    border: 15px solid #ccfa76;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px #0008;
+    z-index: 2;
+}
+
+#avisoBeneficio span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cerrarAviso {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
